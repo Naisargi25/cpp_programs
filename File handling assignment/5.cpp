@@ -10,6 +10,7 @@ class student
    	char branch[20];
         char loc[40];
 
+   // get student details
    void getdata()
    { 
       cout << "\nEnter Student ID: ";
@@ -22,6 +23,7 @@ class student
       cin >> loc;
    }
 
+   // Add details of student into 'student.dat' file
    void Addrecord()
    {
       fstream f;
@@ -32,6 +34,7 @@ class student
       f.close();
    }
 
+   // Display student details
    void display()
    {
       fstream f;
