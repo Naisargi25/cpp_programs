@@ -10,7 +10,7 @@ int main()
     int count=0;
     string str;
 
-    input.open("count.txt",ios::in); // open a file in read mode
+    input.open("1.txt",ios::in); // open a file in read mode
   
     if(!input)
     {
