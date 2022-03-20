@@ -66,13 +66,14 @@ class student
            
            catch(int x)
            {
-               cout << "\nStudent not found with student ID " << ID << endl;
+               cout << "\nStudent not found with student ID " << st_id << endl;
            }
          
       }
 
       f.close();
    }
+   
 }; //end of the class
 
 int main()
